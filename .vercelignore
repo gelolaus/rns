@@ -1,0 +1,32 @@
+# Files to ignore during Vercel deployment
+
+# Local environment files
+.env
+.env.local
+backend/.env
+
+# Node modules (Vercel installs dependencies)
+node_modules/
+
+# Build artifacts (Vercel rebuilds)
+backend/dist/
+frontend/dist/
+
+# Git
+.git/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
